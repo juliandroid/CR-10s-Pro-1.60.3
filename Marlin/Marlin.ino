@@ -45,7 +45,7 @@
     #include <U8glib.h> // library for graphics LCD by Oli Kraus (https://github.com/olikraus/U8glib_Arduino)
   #elif ENABLED(RTS_AVAILABLE)
   #else
-    #include <LiquidCrystal.h> // library for character LCD
+    // #include <LiquidCrystal.h> // library for character LCD
   #endif
 #endif
 
