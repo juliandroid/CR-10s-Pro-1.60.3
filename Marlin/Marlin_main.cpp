@@ -7329,7 +7329,7 @@ inline void gcode_M104()
       UNUSED(e);
     #endif
 
-    SERIAL_PROTOCOLCHAR(" ==");
+    SERIAL_PROTOCOLCHAR(" ");
     SERIAL_PROTOCOLCHAR(
       #if HAS_TEMP_BED && HAS_TEMP_HOTEND
         e == -1 ? 'B' : 'T'
@@ -13904,4 +13904,3 @@ void loop()
 	endstops.report_state();
 	idle();
 }
-
